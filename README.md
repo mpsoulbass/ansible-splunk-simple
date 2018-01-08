@@ -18,6 +18,11 @@ Simple Splunk deployment using Ansible, see [Splunk Blog Post](http://blogs.splu
 
 ## Expectations
 
+### Alterar o sistema operacional para sismtemas baseados no RED HAT.
+### Verificar a questão dos certificados para comunicação SSH
+### Analisar se é melhor baixar os arquivos binários ou guada-los em uma determinada pasta
+### Verificar as roles master_cluster e deployment_server
+
 This ansible package expectes your servers to be ubuntu base OS. The splunk binaries currently set are *Splunk 6.2* located under
 `playbooks/splunk_binaries`
 
